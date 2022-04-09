@@ -1,0 +1,11 @@
+{
+  "apis": {
+    "CronJob": "batch/v1",
+    "EndpointSlice": "discovery.k8s.io/v1",
+    "Event": "vents.k8s.io/v1",
+    "HorizontalPodAutoscaler": "autoscaling/v2",
+    "PodDisruptionBudget": "v1beta1",
+    "PodSecurityPolicy": "removed",
+    "RuntimeClass": " node.k8s.io/v1"
+  }
+}
