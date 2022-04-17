@@ -1,7 +1,22 @@
-{
-  "apis": {
-    "FlowSchema": "flowcontrol.apiserver.k8s.io/v1beta2",
-    "PriorityLevelConfiguration": "flowcontrol.apiserver.k8s.io/v1beta2",
-    "HorizontalPodAutoscaler": "autoscaling/v2"
-  }
-}
+[
+
+	{
+		"kind": "FlowSchema",
+		"group": "flowcontrol.apiserver.k8s.io",
+		"version": "v1beta2",
+		"removed": "false"
+	},
+	{
+		"kind": "PriorityLevelConfiguration",
+		"group": "flowcontrol.apiserver.k8s.io",
+		"version": "v1beta2",
+		"removed": "false"
+	},
+	{
+		"kind": "HorizontalPodAutoscaler",
+		"group": "autoscaling",
+		"version": "v2",
+		"removed": "false"
+	}
+
+]
