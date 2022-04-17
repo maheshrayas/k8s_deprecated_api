@@ -1,36 +1,36 @@
 [
     {
-      "name": "CronJob",
+      "kind": "CronJob",
       "group": "batch",
       "version": "v1",
       "removed": "false"
     },
     {
-      "name": "EndpointSlice",
+      "kind": "EndpointSlice",
       "group": "discovery.k8s.io",
       "version": "v1",
       "removed": "false"
     },
     {
-      "name": "Event",
+      "kind": "Event",
       "group": "events.k8s.io",
       "version": "v1",
       "removed": "false"
     },
     {
-      "name": "PodDisruptionBudget",
+      "kind": "PodDisruptionBudget",
       "group": "policy",
       "version": "v1",
       "removed": "false"
     },
     {
-      "name": "PodSecurityPolicy",
+      "kind": "PodSecurityPolicy",
       "group": "policy",
       "version": "v1beta1",
       "removed": "true"
     },
     {
-      "name": "RuntimeClass",
+      "kind": "RuntimeClass",
       "group": "node.k8s.io",
       "version": "v1",
       "removed": "false"
