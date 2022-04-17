@@ -1,5 +1,11 @@
 {
   "apis": {
-     "PodSecurityPolicy": "removed"
+    "CronJob": {"group":"batch","version":"v1","removed":"false"},
+    "EndpointSlice": { "group":"discovery.k8s.io","version":"v1","removed":"false"},
+    "Event": {"group":"events.k8s.io","version":"v1","removed":"false"},
+    "HorizontalPodAutoscaler": {"group":"autoscaling","version":"v2","removed":"false"},
+    "PodDisruptionBudget": {"group":"policy","version":"v1","removed":"false"},
+    "PodSecurityPolicy": {"group":"policy","version":"v1beta1","removed":"true"}
+    "RuntimeClass": {"group":"node.k8s.io","version":"v1","removed":"false"},
   }
 }
