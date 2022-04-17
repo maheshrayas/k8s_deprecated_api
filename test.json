@@ -1,5 +1,5 @@
 {
   "apis": {
-     "PodSecurityPolicy": "removed",
+     "PodSecurityPolicy": "removed"
   }
 }
