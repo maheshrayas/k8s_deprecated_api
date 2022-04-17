@@ -1,10 +1,37 @@
+[{
+    "kind": "NetworkPolicy",
+    "group": "networking.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
 {
-  "apis": {
-    "NetworkPolicy": "networking.k8s.io/v1",
-    "DaemonSet": "apps/v1",
-    "Deployment": "apps/v1",
-    "StatefulSet": "apps/v1",
-    "ReplicaSet": "apps/v1",
-    "PodSecurityPolicy": "policy/v1beta1"
-  }
+    "kind": "DaemonSet",
+    "group": "apps",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "Deployment",
+    "group": "apps",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "StatefulSet",
+    "group": "apps",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "ReplicaSet",
+    "group": "apps",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "PodSecurityPolicy",
+    "group": "policy",
+    "version": "v1beta1",
+    "removed": "false"
 }
+]
