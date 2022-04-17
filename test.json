@@ -18,12 +18,6 @@
       "removed": "false"
     },
     {
-      "name": "HorizontalPodAutoscaler",
-      "group": "autoscaling",
-      "version": "v2",
-      "removed": "false"
-    },
-    {
       "name": "PodDisruptionBudget",
       "group": "policy",
       "version": "v1",
