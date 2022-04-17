@@ -1,24 +1,120 @@
+[{
+    "kind": "MutatingWebhookConfiguration",
+    "group": "admissionregistration.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
 {
-  "apis": {
-    "MutatingWebhookConfiguration": "admissionregistration.k8s.io/v1",
-    "ValidatingWebhookConfiguration": "admissionregistration.k8s.io/v1",
-    "CustomResourceDefinition": "apiextensions.k8s.io/v1",
-    "APIService": "apiregistration.k8s.io/v1",
-    "TokenReview": "authentication.k8s.io/v1beta1",
-    "LocalSubjectAccessReview": "authorization.k8s.io/v1",
-    "SelfSubjectAccessReview": "authorization.k8s.io/v1",
-    "CertificateSigningRequest": "certificates.k8s.io/v1",
-    "Lease": "coordination.k8s.io/v1",
-    "Ingress": "networking.k8s.io/v1",
-    "IngressClass": "networking.k8s.io/v1",
-    "ClusterRole": "rbac.authorization.k8s.io/v1",
-    "ClusterRoleBinding": "rbac.authorization.k8s.io/v1",
-    "Role": "rbac.authorization.k8s.io/v1",
-    "RoleBinding": "rbac.authorization.k8s.io/v1",
-    "PriorityClass": "scheduling.k8s.io/v1",
-    "CSIDriver": "storage.k8s.io/v1",
-    "CSINode": "storage.k8s.io/v1",
-    "StorageClass": "storage.k8s.io/v1",
-    "VolumeAttachment": "storage.k8s.io/v1"
-  }
+    "kind": "ValidatingWebhookConfiguration",
+    "group": "admissionregistration.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "CustomResourceDefinition",
+    "group": "apiextensions.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "APIService",
+    "group": "apiregistration.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "TokenReview",
+    "group": "authentication.k8s.io",
+    "version": "v1beta1",
+    "removed": "false"
+}, {
+    "kind": "LocalSubjectAccessReview",
+    "group": "authorization.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "SelfSubjectAccessReview",
+    "group": "authorization.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "CertificateSigningRequest",
+    "group": "certificates.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "Lease",
+    "group": "coordination.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "Ingress",
+    "group": "networking.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "IngressClass",
+    "group": "networking.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "ClusterRole",
+    "group": "rbac.authorization.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "ClusterRoleBinding",
+    "group": "rbac.authorization.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "Role",
+    "group": "rbac.authorization.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "RoleBinding",
+    "group": "rbac.authorization.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "PriorityClass",
+    "group": "scheduling.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "CSIDriver",
+    "group": "storage.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "CSINode",
+    "group": "storage.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "StorageClass",
+    "group": "storage.k8s.io",
+    "version": "v1",
+    "removed": "false"
+},
+{
+    "kind": "VolumeAttachment",
+    "group": "storage.k8s.io",
+    "version": "v1",
+    "removed": "false"
 }
+]
