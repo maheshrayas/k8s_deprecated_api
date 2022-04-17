@@ -20,7 +20,7 @@
   {
     "name": "HorizontalPodAutoscaler",
     "group": "autoscaling",
-    "version": "v2beta1",
+    "version": "v2",
     "removed": "false"
   },
   {
