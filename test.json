@@ -1,38 +1,40 @@
-[
-    {
-      "name": "CronJob",
-      "group": "batch",
-      "version": "v1",
-      "removed": "false"
-    },
-    {
-      "name": "EndpointSlice",
-      "group": "discovery.k8s.io",
-      "version": "v1",
-      "removed": "false"
-    },
-    {
-      "name": "Event",
-      "group": "events.k8s.io",
-      "version": "v1",
-      "removed": "false"
-    },
-    {
-      "name": "PodDisruptionBudget",
-      "group": "policy",
-      "version": "v1",
-      "removed": "false"
-    },
-    {
-      "name": "PodSecurityPolicy",
-      "group": "policy",
-      "version": "v1beta1",
-      "removed": "true"
-    },
-    {
-      "name": "RuntimeClass",
-      "group": "node.k8s.io",
-      "version": "v1",
-      "removed": "false"
-    }
-  ]
+{
+	"k8_version": "1.22",
+	"apis": [{
+			"name": "CronJob",
+			"group": "batch",
+			"version": "v1",
+			"removed": "false"
+		},
+		{
+			"name": "EndpointSlice",
+			"group": "discovery.k8s.io",
+			"version": "v1",
+			"removed": "false"
+		},
+		{
+			"name": "Event",
+			"group": "events.k8s.io",
+			"version": "v1",
+			"removed": "false"
+		},
+		{
+			"name": "PodDisruptionBudget",
+			"group": "policy",
+			"version": "v1",
+			"removed": "false"
+		},
+		{
+			"name": "PodSecurityPolicy",
+			"group": "policy",
+			"version": "v1beta1",
+			"removed": "true"
+		},
+		{
+			"name": "RuntimeClass",
+			"group": "node.k8s.io",
+			"version": "v1",
+			"removed": "false"
+		}
+	]
+}
