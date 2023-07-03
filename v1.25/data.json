@@ -32,8 +32,8 @@
     {
       "kind": "HorizontalPodAutoscaler",
       "group": "autoscaling",
-      "version": "v2beta1",
-      "removed": "true"
+      "version": "v2",
+      "removed": "false"
     },
     {
       "kind": "RuntimeClass",
