@@ -30,6 +30,12 @@
       "removed": "true"
     },
     {
+      "kind": "HorizontalPodAutoscaler",
+      "group": "autoscaling",
+      "version": "v2beta1",
+      "removed": "true"
+    },
+    {
       "kind": "RuntimeClass",
       "group": "node.k8s.io",
       "version": "v1",
