@@ -34,7 +34,7 @@
       "group": "autoscaling",
       "version": "v2",
       "removed": "false",
-      "deprecated_versions": ["v2beta1"]
+      "deprecated_versions": ["autoscaling/v2beta1"]
     },
     {
       "kind": "RuntimeClass",
