@@ -16,7 +16,8 @@
 		"kind": "HorizontalPodAutoscaler",
 		"group": "autoscaling",
 		"version": "v2",
-		"removed": "false"
+		"removed": "false",
+		 "deprecated_versions": ["autoscaling/v2beta2"]
 	}
 
 ]
