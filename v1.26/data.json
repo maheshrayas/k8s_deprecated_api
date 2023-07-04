@@ -17,6 +17,7 @@
 		"group": "autoscaling",
 		"version": "v2",
 		"removed": "false"
+		 "deprecated_versions": ["autoscaling/v2beta1"]
 	}
 
 ]
